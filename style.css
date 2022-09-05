@@ -1,0 +1,80 @@
+.fixed-width{
+    width: 1000px;
+    margin: auto;
+}
+h1{
+    margin-bottom: 35PX;
+}
+/* menu */
+.header{
+    background-color: #00cec9;
+}
+.header-logo img{
+    width: 90px ;  
+}
+.praimary-menu{}
+.praimary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.praimary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.praimary-menu ul li a{
+    display: block;
+    padding: 0px 25px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 57px;
+    text-decoration: none;
+    border-right: 1px solid #ddd;
+    transition: .4s;
+}
+.praimary-menu ul li a:hover{
+    background-color:#1289A7;
+    color: #ccae62 ;
+}
+/* bannar */
+.bannar{
+    background-image: url(./img/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.bannar h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.bannar p{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* teem */
+.teem{
+    background-color: rgba(61, 20, 249, 0.2);
+}
+
+/* about */
+.about{
+    background-color: rgba(11, 69, 87, 0.2);
+}
+
+.about img{
+    margin-bottom: 18px;
+}
+.about-right{
+    margin-left: 10px;
+}
+/* contact */
+.contact{
+    background-color:rgba(90, 81, 62, 0.2) ;
+}
+/* footer */
+.footer{
+    background-color: #0984e3;
+}
+.footer-text{
+    color: #fff;
+}
